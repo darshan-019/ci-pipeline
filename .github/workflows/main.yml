@@ -1,0 +1,13 @@
+name: ci pipeline
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "ci started"
+      - run: pwd
+      - run: ls
+      - run: echo "pipeline successful
