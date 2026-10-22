@@ -10,4 +10,4 @@ jobs:
       - run: echo "ci started"
       - run: pwd
       - run: ls
-      - run: echo "pipeline successful
+      - run: echo "pipeline successful"
